@@ -54,13 +54,16 @@ body {
   }
 }
 .footer {
-  margin-top: 10vh;
-  h3 {
-    margin: 0;
-  }
+	margin-top: 10vh;
+	h3 {
+		margin: 0;
+	}
+
 }
 
 //for subsite Malerei extra because its both
+
+
 
 .header-subsite {
   width: 80vw;
@@ -81,15 +84,16 @@ input {
   cursor: pointer !important;
 }
 
+
 @keyframes rotating {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 #rotating {
-  -webkit-animation: rotating 10s linear infinite;
+    -webkit-animation: rotating 10s linear infinite;
 }

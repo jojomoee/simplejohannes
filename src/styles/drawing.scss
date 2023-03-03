@@ -2,7 +2,6 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,56 +10,32 @@ body {
   font-family: "Courier New", Courier, monospace;
   background-color: #c7c7c7;
 }
-.header {
+h1 {
+  font-size: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+img {
+  width: 80vw;
+  padding-top: 5vh;
+}
+
+.main-subsite {
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  h1 {
-    text-align: center;
-    font-size: 40px;
-  }
+  flex-flow: column;
+  width: 80vw;
 }
-.main {
-  display: flex;
-  align-items: center;
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    padding-top: 20px;
-  }
-
-  li {
-    border: solid 2px black;
-    display: flex;
-    border-bottom: none;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  #last-li {
-    border-bottom: solid 2px black;
-  }
-
-  a {
-    display: flex;
-    margin: 5vh;
-    text-decoration: none;
-    text-align: center;
-    font-size: 40px;
-  }
-}
-.footer {
-  margin-top: 10vh;
-  h3 {
-    margin: 0;
-  }
-}
-
-//for subsite Malerei extra because its both
 
 .header-subsite {
   width: 80vw;
