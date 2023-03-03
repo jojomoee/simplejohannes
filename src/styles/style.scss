@@ -1,8 +1,6 @@
-
 body {
-
   display: flex;
-	flex-flow: column;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
@@ -10,9 +8,55 @@ body {
   padding: 0;
   height: 100vh;
   width: 100vw;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #c7c7c7;
 }
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-a{
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.main {
+  display: flex;
+  align-items: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-top: 20px;
+  }
+
+  li {
+    border: solid 2px black;
+    display: flex;
+    border-bottom: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #last-li {
+    border-bottom: solid 2px black;
+  }
+
+  a {
+    display: flex;
+    margin: 5vh;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.footer {
+	margin-top: 10vh;
+	h3 {
+		margin: 0;
+	}
 
 }
-
