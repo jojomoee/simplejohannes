@@ -56,12 +56,12 @@ a {
 }
 .footer {
   margin-top: 10vh;
-  h3 {
-    margin: 0;
-  }
 }
 
-//for subsite Malerei extra
+h3 {
+  margin: 0;
+}
+
 
 .header-subsite {
   width: 80vw;
